@@ -4,7 +4,7 @@ int main(){
     printf("Desafio cadastro das cartas\n\n");
 
     //Inicio da declaração das variaveis carta 1
-    char estadocarta1;                     // Letra estado da da cidade
+    char estadocarta1;                     // Letra estado da cidade
     char codigocarta1[4];                  // Código identificador
     char nomecidadecarta1[20];             // Nome da cidade 
     int populacao1;                        // População                     
