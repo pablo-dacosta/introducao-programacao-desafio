@@ -10,7 +10,11 @@ int main(){
     int populacao1;                        // População                     
     float areacarta1;                      // Área em km² 
     float pibcarta1;                       // Pib (Produto interno bruto) 
-    int numeropontosturisticos1;           // Número de pontos turísticos 
+    int pontosturisticos1;                 // Número de pontos turísticos 
+    float densidade1;                      // Densidade populacional 
+    float pibpercapta1;
+    
+
     //Fim declaração de variaveis carta 1
 
     //inicio declaração de variaveis carta 2
@@ -20,7 +24,11 @@ int main(){
     int populacao2;
     float areacarta2;
     float pibcarta2;
-    int numeropontosturisticos2;
+    int pontosturisticos2;
+    float densidade2;
+    float pibpercapta2;
+
+
     //Fim declaração de variaveis carta 2.
 
     //Inicio da entrada de dados (printf e scanf)
@@ -47,8 +55,10 @@ int main(){
     scanf("%f", &pibcarta1);
 
     printf("Insira a quantidade de pontos turistícos: \n");
-    scanf("%d", &numeropontosturisticos1);
+    scanf("%d", &pontosturisticos1);
 
+    densidade1 = (float) populacao1 / areacarta1;
+    pibpercapta1 = (float) pibcarta1 / populacao1;
 
     printf("=== insira os dados da carta 2 ===\n\n");
 
@@ -72,7 +82,10 @@ int main(){
     scanf("%f", &pibcarta2);
 
     printf("Insira a quantidade de pontos turistícos: \n");
-    scanf("%d", &numeropontosturisticos2);
+    scanf("%d", &pontosturisticos2);
+
+    densidade2 = (float) populacao2 / areacarta2;
+    pibpercapta2 = (float) pibcarta2 / populacao2;
 
     printf("==== Carta 1 ====\n");
 
@@ -87,9 +100,13 @@ int main(){
 
     printf("Área: %.2f Km²\n", areacarta1);
 
-    printf("Pib: %.2f Reais.\n", pibcarta1);
+    printf("Pib: %.2f bilhões de Reais.\n", pibcarta1);
 
-    printf("Número de pontos turisticos: %d\n\n", numeropontosturisticos1);
+    printf("Número de pontos turisticos: %d\n", pontosturisticos1);
+
+    printf("Densidade populacional: %.2f\n", densidade1);
+
+    printf("Pib per Capta: %.2f\n", pibpercapta1);
     
     //Fim saída carta 1
 
@@ -106,14 +123,16 @@ int main(){
 
     printf("Área: %.2f Km².\n", areacarta2);
 
-    printf("Pib: %.2f Reais.\n", pibcarta2);
+    printf("Pib: %.2f bilhões de Reais.\n", pibcarta2);
 
-    printf("Número de pontos turisticos: %d\n", numeropontosturisticos2);
+    printf("Número de pontos turisticos: %d\n", pontosturisticos2);
+
+    printf("Densidade populacional: %.2f\n", densidade2);
+
+    printf("Pib per Capta: %.2f\n", pibpercapta2);
     //Fim saída carta 2
     
-
     //Fim o programa
 
     return 0;
-
 }
