@@ -104,9 +104,9 @@ int main(){
 
     printf("Número de pontos turisticos: %d\n", pontosturisticos1);
 
-    printf("Densidade populacional: %.2f\n", densidade1);
+    printf("Densidade populacional: %.2f hab/Km².\n", densidade1);
 
-    printf("Pib per Capta: %.2f\n", pibpercapta1);
+    printf("Pib per Capta: %.2f reais.\n", pibpercapta1);
     
     //Fim saída carta 1
 
@@ -127,9 +127,9 @@ int main(){
 
     printf("Número de pontos turisticos: %d\n", pontosturisticos2);
 
-    printf("Densidade populacional: %.2f\n", densidade2);
+    printf("Densidade populacional: %.2f hab/Km².\n", densidade2);
 
-    printf("Pib per Capta: %.2f\n", pibpercapta2);
+    printf("Pib per Capta: %.2f reais.\n", pibpercapta2);
     //Fim saída carta 2
     
     //Fim o programa
