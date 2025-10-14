@@ -7,7 +7,7 @@ int main(){
     char estadocarta1;                     // Letra estado da cidade
     char codigocarta1[4];                  // Código identificador
     char nomecidadecarta1[20];             // Nome da cidade 
-    int populacao1;                        // População                     
+    unsigned long int populacao1;                        // População                     
     float areacarta1;                      // Área em km² 
     float pibcarta1;                       // Pib (Produto interno bruto) 
     int pontosturisticos1;                 // Número de pontos turísticos 
@@ -21,7 +21,7 @@ int main(){
     char estadocarta2;
     char codigocarta2[4];
     char nomecidadecarta2[20];
-    int populacao2;
+    unsigned long int populacao2;
     float areacarta2;
     float pibcarta2;
     int pontosturisticos2;
