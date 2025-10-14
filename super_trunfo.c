@@ -46,7 +46,7 @@ int main(){
     scanf("%s", nomecidadecarta1);
     
     printf("Digite a população: \n");
-    scanf("%d", &populacao1);
+    scanf("%lu", &populacao1);
 
     printf("Informe a área em km²: \n");
     scanf("%f", &areacarta1);
@@ -73,7 +73,7 @@ int main(){
     scanf("%s", nomecidadecarta2);
     
     printf("Digite a população: \n");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2);
 
     printf("Informe a área em km²: \n");
     scanf(" %f", &areacarta2);
@@ -96,7 +96,7 @@ int main(){
 
     printf("Cidade: %s \n", nomecidadecarta1);
 
-    printf("População: %d\n", populacao1);
+    printf("População: %lu\n", populacao1);
 
     printf("Área: %.2f Km²\n", areacarta1);
 
@@ -119,7 +119,7 @@ int main(){
 
     printf("Cidade: %s \n", nomecidadecarta2);
 
-    printf("População: %d\n", populacao2);
+    printf("População: %lu\n", populacao2);
 
     printf("Área: %.2f Km².\n", areacarta2);
 
