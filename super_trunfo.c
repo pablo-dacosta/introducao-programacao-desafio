@@ -75,7 +75,7 @@ int main(){
     densidade2 = (float)populacao2 / areacarta2;
     pibpercapta2 = pibcarta2 / populacao2;
 
-    // ===== COMPARAÇÃO (apenas 1 atributo: População) =====
+    // ===== COMPARAÇÃO (População) =====
     printf("\n=== Comparação de Cartas (Atributo: População) ===\n\n");
 
     printf("Carta 1 - %s (%c%s): %lu habitantes\n", nomecidadecarta1, estadocarta1, codigocarta1, populacao1);
